@@ -15,3 +15,8 @@ email aren't present in the spreadsheet.
  * To use, open the Script Editor from the spreadsheet you wish to use
  * Copy and paste each file into the script editor.
  * From the Run menu, select "onInstall"
+
+NB: I couldn't find any copyright/license in the code. This doesn't mean it isn't
+licensed/copyrighted. I'm happy for the community to rewrite every bit of code and
+get it to the point it can be GPL licensed. My intention was to assist users who
+had been using the old script, but couldn't in the new Sheets
