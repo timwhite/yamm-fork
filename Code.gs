@@ -199,6 +199,7 @@ function fillInTemplateFromObject(template, data) {
         for (var i = 0; i < templateVars.length; ++i) {
             // normalizeHeader ignores <<>> so we can call it directly here.
             var variableData = data[normalizeHeader(templateVars[i].replace(/<[^\~]+~/, ''))];
+            variableData = variableData.replace(/\r?\n/g, "<br />")
             templateVars[i] = templateVars[i].replace(/~/g, '">');
             // Check that we have a header for this merge field
             if (variableData == undefined) {
