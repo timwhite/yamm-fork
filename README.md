@@ -1,5 +1,7 @@
 # Yet Another Mail Merge Fork #
 
+**This in an unoffical copy of the old YAMM code. It is not maintained and will no longer work in the new Google Sheets**
+
 Due to the Script gallery not being available in the new Google Sheets, and the
 Yet Another Mail Merge addon now wanting money due to "ongoing development" costs
 for a script that was perfectly fine, I've got the last version of the YAMM code
